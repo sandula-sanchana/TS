@@ -61,5 +61,6 @@ if (typeof xS === 'string') {
 }
 let nameorNo = "gee";
 nameorNo = 44;
-// nameorNo=true; // only accept a string or a number
+const p = { name: "Sandula" };
+// p.name = "New Name"; // attribute is readonly, make it immutable
 //# sourceMappingURL=index.js.map
