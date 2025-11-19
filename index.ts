@@ -106,15 +106,24 @@ nameorNo=44;
 
 // nameorNo=true; // only accept a string or a number
 
+
+
 //---------------readonly
 
 type Person = {
   readonly name: string;
+  address?:string;// make this otional
 };
 
-const p: Person = { name: "Sandula" };
+const p1: Person = { name: "Sandula" };
 
 // p.name = "New Name"; // attribute is readonly, make it immutable
+
+const p2: Person = { name: "Sandula",address:"paaaaaaaaaa" };// both work address is optional, we can send with out a address
+//optional(?)-this is like constructor overloading
+
+
+
 
 
 

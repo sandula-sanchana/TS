@@ -61,6 +61,8 @@ if (typeof xS === 'string') {
 }
 let nameorNo = "gee";
 nameorNo = 44;
-const p = { name: "Sandula" };
+const p1 = { name: "Sandula" };
 // p.name = "New Name"; // attribute is readonly, make it immutable
+const p2 = { name: "Sandula", address: "paaaaaaaaaa" }; // both work address is optional, we can send with out a address
+//optional(?)-this is like constructor overloading
 //# sourceMappingURL=index.js.map
