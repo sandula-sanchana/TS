@@ -39,4 +39,27 @@ function print(message) {
 let addMe = (a, b) => {
     return a + b;
 };
+//any and unknown
+let anyE = true; // any buypass the ts type safety, we can assign any type of value to it
+let unk = "any type of value";
+anyE = 3;
+unk = 6;
+// (unk as string).toUpperCase();// auto complete work here cause its type assertion, it says to take unk as a string and work
+// compile time--ts trust us//tell compiler to treat a value as a specific type, there is no runtime change, if type missmatched it throws a runtime error
+// anyE.toUpperCase(); // runtime error here too cause its a number, if it was a string it enable auto complete
+if (typeof unk === "string") { // need this because its type unknown so it need validation before do something
+    unk.toUpperCase();
+} // run time
+// any=turn off type Script  and unknown is the safer version of any before it need validation
+//so best practice is unknown
+//-----------type cast
+anyE = +"5"; //becomes a number
+let x = 6;
+let xS = String(x);
+if (typeof xS === 'string') {
+    console.log("casted to string");
+}
+let nameorNo = "gee";
+nameorNo = 44;
+// nameorNo=true; // only accept a string or a number
 //# sourceMappingURL=index.js.map
