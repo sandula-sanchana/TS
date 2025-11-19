@@ -19,4 +19,14 @@ let twoD = [[2, 3, 4], [5, 6, 7]];
 console.log(twoD);
 //fiexed arrays
 let fixed = ["dwdw", "efefe", 1];
+let nameO1 = {
+    id: 1,
+    name: "tata",
+    age: 21
+};
+let nameO2 = {
+    id: 1,
+    name: "tata",
+    age: 21
+};
 //# sourceMappingURL=index.js.map

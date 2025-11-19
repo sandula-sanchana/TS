@@ -33,6 +33,23 @@ console.log(twoD)
 
 let fixed:[String,String,number]=["dwdw","efefe",1]
 
+//-----------------------objects
+
+type person={id:number,name:String,age:number}
+
+let nameO1:person={
+   id:1,
+   name:"tata",
+   age:21
+}
+
+let nameO2:person={// object type(content) is the same, we can give a custom type for it
+   id:1,
+   name:"tata",
+   age:21
+}
+
+
 
 
 
