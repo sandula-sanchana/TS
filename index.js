@@ -29,4 +29,14 @@ let nameO2 = {
     name: "tata",
     age: 21
 };
+//-------------------------functions
+function add(a, b) {
+    return a + b;
+}
+function print(message) {
+    console.log(message);
+}
+let addMe = (a, b) => {
+    return a + b;
+};
 //# sourceMappingURL=index.js.map

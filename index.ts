@@ -49,6 +49,19 @@ let nameO2:person={// object type(content) is the same, we can give a custom typ
    age:21
 }
 
+//-------------------------functions
+
+function add(a:number,b:number):number{// types for param and out side ob bracket type is for return type
+    return a+b;
+}
+
+function print(message:String):void{// void if there is no return type
+    console.log(message)
+}
+let addMe=(a:number,b:number):number=>{//arrow
+    return a+b;
+}
+
 
 
 
