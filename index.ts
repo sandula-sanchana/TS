@@ -1,6 +1,40 @@
 
+//------------primitive
 let name :String ="saNCHA";
 console.log(name);
 
 let number :number=1;
 let is:boolean=true;
+
+let myU:undefined=undefined;
+let n:null=null;
+
+//theres big int and symbol also
+
+//-------------arrays
+
+let numbers:number[]=[1,2,3,4]
+
+let names:String[]=["heheh","hhhhh"]
+
+//mix
+
+let mix:(String | boolean | number)[]=["apple",1,true]
+
+console.log(mix)
+
+//2d
+
+let twoD:number[][]=[[2,3,4],[5,6,7]]
+
+console.log(twoD)
+
+//fiexed arrays
+
+let fixed:[String,String,number]=["dwdw","efefe",1]
+
+
+
+
+
+
