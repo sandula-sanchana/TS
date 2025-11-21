@@ -131,6 +131,23 @@ direction="west";
 // direction="south" cant assign to the literal type. likes a enum in java
 
 
+//-----------------------type narrowing
+
+function addTwo(val : string | number){
+  if(typeof val === 'string'){
+      val.toLocaleLowerCase(); // ts suj. works
+  }else if(typeof val === 'number'){
+
+  }else{
+
+  }
+}// need more on this , not enough
+
+//------------------------
+
+
+
+
 
 
 
