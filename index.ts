@@ -143,7 +143,36 @@ function addTwo(val : string | number){
   }
 }// need more on this , not enough
 
-//------------------------
+//------------------------ discriminate unions
+
+type shape={
+  type : "Squre",
+  height:number,
+  width:number
+}
+
+// can use the if to fileter the shape too using type
+
+//---------------------intersection types
+
+type point2D={
+  x:number,
+  y:number
+}
+
+type point3D={
+  x:number,
+  y:number,
+  z:number
+}
+// without creating 3d one all over we can intersect 2d and add z
+
+type customP=point2D &{ //& for intersection
+   z:number;
+}
+
+
+
 
 
 
