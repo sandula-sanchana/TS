@@ -123,6 +123,21 @@ const p2: Person = { name: "Sandula",address:"paaaaaaaaaa" };// both work addres
 //optional(?)-this is like constructor overloading
 
 
+//------------------literal types
+
+let direction:"north" | "west"="north";
+
+direction="west";
+// direction="south" cant assign to the literal type. likes a enum in java
+
+
+
+
+
+
+
+
+
 
 
 

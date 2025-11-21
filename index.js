@@ -65,4 +65,5 @@ const p1 = { name: "Sandula" };
 // p.name = "New Name"; // attribute is readonly, make it immutable
 const p2 = { name: "Sandula", address: "paaaaaaaaaa" }; // both work address is optional, we can send with out a address
 //optional(?)-this is like constructor overloading
+//------------------literal types
 //# sourceMappingURL=index.js.map
