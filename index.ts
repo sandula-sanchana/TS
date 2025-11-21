@@ -171,6 +171,30 @@ type customP=point2D &{ //& for intersection
    z:number;
 }
 
+//----------------interfaces
+
+interface P{
+  name:string,
+  age:number
+}
+
+let person:P = {// object from the interface type
+   name:"sandula",
+   age:21
+}
+
+interface Child extends P{// like inheritance(intersect)
+   height:number;
+}
+
+let sandula:Child ={
+  name:"sandula",
+  age:21,
+  height:171
+}
+
+
+
 
 
 
