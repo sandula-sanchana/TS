@@ -66,4 +66,35 @@ const p1 = { name: "Sandula" };
 const p2 = { name: "Sandula", address: "paaaaaaaaaa" }; // both work address is optional, we can send with out a address
 //optional(?)-this is like constructor overloading
 //------------------literal types
+let direction = "north";
+direction = "west";
+// direction="south" cant assign to the literal type. likes a enum in java
+//-----------------------type narrowing
+function addTwo(val) {
+    if (typeof val === 'string') {
+        val.toLocaleLowerCase(); // ts suj. works
+    }
+    else if (typeof val === 'number') {
+    }
+    else {
+    }
+} // need more on this , not enough
+let person = {
+    name: "sandula",
+    age: 21
+};
+let sandula = {
+    name: "sandula",
+    age: 21,
+    height: 171
+};
+let ob1 = {
+    name: "sd",
+    age: 31
+};
+function hhhh(arr) {
+    return arr;
+}
+let y = () => {
+};
 //# sourceMappingURL=index.js.map

@@ -193,7 +193,25 @@ let sandula:Child ={
   height:171
 }
 
+//-----------------------generics
 
+type MyObj<T>={
+  name:string,
+  age:T
+}
+
+let ob1:MyObj<number>={
+  name:"sd",
+  age:31
+}
+
+function hhhh<T>(arr:T[]):T[]{ // generics in functions
+  return arr;
+}
+
+let y=<T>()=>{ // arrow generics
+
+}
 
 
 
